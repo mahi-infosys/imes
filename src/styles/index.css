@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: sans-serif; /* Choose a suitable font */
+}
+
+.container {
+    margin-top: 30px; /* Add spacing between sections */
+}
+
+/* Hero Section */
+.hero {
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+    padding: 100px 0; /* Adjust padding as needed */
+}
+.hero h1 {
+    font-size: 3rem; /* Adjust font size as needed */
+}
+
+.hero .lead {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    margin-bottom: 30px;
+}
+
+.navbar-brand-logo{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0091cc;
+}
+

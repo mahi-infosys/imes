@@ -1,0 +1,26 @@
+.nav-link {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .sidebar-heading {
+    font-size: 0.8rem;
+    color: #6c757d;
+    margin-top: 1.5rem;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
+  .card-link {
+    color: inherit; /* Inherit color from parent to avoid blue link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .card-link:hover .card {
+    /* Add hover effect to the card itself */
+    box-shadow: 0 4px 8px rgba(238, 4, 4, 0.1); /* Example hover effect */
+    transform: translateY(-2px); /* Example hover effect */
+  }
